@@ -12,7 +12,7 @@ from keras.layers import Input, Conv2D, MaxPool2D, GlobalMaxPooling2D, GlobalAve
 from keras.layers import Activation, Dense
 from keras.models import Model
 import keras.backend as K
-from utils import block
+from keras_shufflenetV2.utils import block
 
 
 def ShuffleNetV2(include_top=True,
