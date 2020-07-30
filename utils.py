@@ -6,7 +6,7 @@
 #'''
 import os
 from keras import backend as K
-from keras.applications.imagenet_utils import _obtain_input_shape
+from keras_applications.imagenet_utils import _obtain_input_shape
 from keras.models import Model
 from keras.engine.topology import get_source_inputs
 from keras.layers import Activation, Add, Concatenate, Conv2D, GlobalMaxPooling2D
