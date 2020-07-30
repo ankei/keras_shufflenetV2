@@ -6,7 +6,7 @@
 #'''
 import numpy as np
 from keras.utils import plot_model
-from keras.applications.imagenet_utils import _obtain_input_shape
+from keras_applications.imagenet_utils import _obtain_input_shape
 from keras.engine.topology import get_source_inputs
 from keras.layers import Input, Conv2D, MaxPool2D, GlobalMaxPooling2D, GlobalAveragePooling2D
 from keras.layers import Activation, Dense
